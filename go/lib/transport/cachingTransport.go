@@ -8,7 +8,7 @@ import (
 	"net/http/httputil"
 	"time"
 
-	"github.com/go-redis/redis/v8"
+	"github.com/go-redis/redis"
 )
 
 // CachingTransport is a redis-based caching wrapper around the custom rate-limited ESITransport
